@@ -5,23 +5,23 @@ class Podelis < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/taislius/podelis/releases/download/v0.4.0/podelis-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "29f4a15090b31a381d7e28a6cfef8a6727c30eaeff01109e9c0d249dabb3e1d6"
+      url "https://github.com/taislius/podelis/releases/download/v0.5.0/podelis-v0.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e5528a8e07e87e33258eccfd80fad8e2f6f8b8a9b96ac882b4e15c2440a46107"
     end
     on_intel do
-      url "https://github.com/taislius/podelis/releases/download/v0.4.0/podelis-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b007e3f872d42798956669102c6db6e32da3074d1609da09ac9782de4d5c0e3f"
+      url "https://github.com/taislius/podelis/releases/download/v0.5.0/podelis-v0.5.0-x86_64-apple-darwin.tar.gz"
+      sha256 "9da456068ced16c1cfe5aa74466b0edd0b66b57baa6d9077beb8f158686d74b1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/taislius/podelis/releases/download/v0.4.0/podelis-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7ec2ff83ba1c0a18c194a255687ad978579df2c5cd2eb4939f660616f152157a"
+      url "https://github.com/taislius/podelis/releases/download/v0.5.0/podelis-v0.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1c0c8807ffd9bce0cb041ff2d64aadf8075e8e1ca92c5e02c7ce1fd55c456537"
     end
     on_intel do
-      url "https://github.com/taislius/podelis/releases/download/v0.4.0/podelis-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "19f196225e818a639ea25fb1342cf6437c19bffe9f0f76d56df83f55fbfeafdc"
+      url "https://github.com/taislius/podelis/releases/download/v0.5.0/podelis-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e6697ccec4a5b32514269dd1055c948c66b5d7a75259b386910aa19ad926accf"
     end
   end
 
